@@ -16,6 +16,7 @@
 #
 # Kubernetes plugin implementation
 #
+from cloudify.exceptions import NonRecoverableError
 from cloudify.decorators import operation
 from cloudify import ctx,manager,utils
 import os
